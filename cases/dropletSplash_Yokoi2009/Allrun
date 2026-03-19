@@ -1,0 +1,16 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# generate mesh
+runApplication blockMesh -region fluid
+restore0Dir
+
+runApplication setAlphaField -region fluid
+runApplication setFields -region fluid
+
+runApplication decomposePar -region fluid
+##runParallel $(getApplication)
+#------------------------------------------------------------------------------

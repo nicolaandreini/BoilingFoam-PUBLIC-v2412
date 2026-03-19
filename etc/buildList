@@ -1,0 +1,6 @@
+src/geometricVoF
+src/interfaceProperties
+src/functionObjects
+src/dynContactAngles
+applications/solvers/icoBoilingFoam
+applications/utilities/setFieldfromTable
