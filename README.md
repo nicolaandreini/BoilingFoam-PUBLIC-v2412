@@ -13,3 +13,4 @@ Fork of [boilingFoam-PUBLIC](https://doi.org/10.5281/zenodo.7991049)  extended w
 
 - F. Municchi, C.N. Markides, O.K. Matar, M. Magnini, *Computational study of bubble, thin-film dynamics and heat transfer during flow boiling in non-circular microchannels*, Appl. Therm. Eng., 238, 122039, 2024. https://doi.org/10.1016/j.applthermaleng.2023.122039
 
+N. Andreini,  Multiphase VOF modeling of heat transfer phenomena in annular flows of pure fluids and zeotropic mixtures. PhD Thesis 2025: https://flore.unifi.it/handle/2158/1423172
