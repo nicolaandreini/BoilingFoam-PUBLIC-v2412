@@ -3,4 +3,5 @@ src/interfaceProperties
 src/functionObjects
 src/dynContactAngles
 applications/solvers/icoBoilingFoam
+applications/solvers/boilingIsoNativeFoam
 applications/utilities/setFieldfromTable
