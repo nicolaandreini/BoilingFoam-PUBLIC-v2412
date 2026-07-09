@@ -436,12 +436,7 @@ forAll(fluidRegions, i)
             << fluidRegions[i].name()
             << endl;
 
-        //- Native isoAdvector builds and owns its own reconstructionSchemes
-        //  (read from the "alpha.*" sub-dictionary of system/fvSolution),
-        //  unlike the custom Boiling::isoAdvection which borrowed the one
-        //  owned by interfaceProperties. The boiling phase-change source is
-        //  still supplied through advect(Sp + divU, Su) in
-        //  alphaEqn_advector.H.
+       
         advectorFluid.set
         (
             i,
