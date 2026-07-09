@@ -219,11 +219,8 @@ forAll(fluidRegions, i)
     volScalarField& alpha2(mixture.alpha2());
 
 
-    //- Native OpenFOAM interfaceProperties (as in interIsoFoam). Curvature is
-    //  the native gradAlpha/height-function model; it does NOT own a
-    //  reconstructionSchemes and provides no sigmaRhoCorrection / gradRDF /
-    //  deltaModel. The interface reconstruction (for isoAdvector and for
-    //  hardBoundAlpha / AMR mapping) is owned by the isoAdvection advector.
+    // Native OpenFOAM interfaceProperties (as in interIsoFoam).
+
     interfaceFluid.set
     (
         i,
