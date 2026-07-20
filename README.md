@@ -7,6 +7,9 @@ Fork of [boilingFoam-PUBLIC](https://doi.org/10.5281/zenodo.7991049)  extended w
 - Yokoi contact angle models
 - New tutorial case: `dropletSplash_Yokoi2009`
 
+boilingIsoNativeFoam - Uses OpenFOAM’s native libraries for isoAdvector 
+interBoilingIsoFoam - it does not have a CHT section (only fluid)
+
 ## References
 
 - F. Municchi, I. El Mellas, O.K. Matar, M. Magnini, *Conjugate heat transfer effects on flow boiling in microchannels*, Int. J. Heat Mass Transfer, 195, 123166, 2022. https://doi.org/10.1016/j.ijheatmasstransfer.2022.123166
